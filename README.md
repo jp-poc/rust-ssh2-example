@@ -6,7 +6,11 @@ Establish an ssh connection using rust and connect to a Cisco IOS XR router to e
 - RUST (https://www.rust-lang.org/tools/install)
 - Linux
 
-# To Execute
+# Install the following libraries
+```env
+apt install install libssl-dev
+apt install pkg-config
+```
 
 # Create a .env file for the ssh configuration.
 ```env
